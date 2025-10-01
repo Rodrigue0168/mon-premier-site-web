@@ -1,0 +1,56 @@
+                     html,
+                     body {
+                         height: 100%;
+                         margin: 0;
+                         padding: 0;
+                     }
+
+                     body {
+                         background-image: url('fond2.jpg');
+                         /* nom de l'image */
+                         background-size: cover;
+                         /* couvre tout l'écran */
+                         background-repeat: no-repeat;
+                         /* pas de répétition */
+                         background-position: center;
+                         /* centrée */
+                         height: 100vh;
+                         margin: 0;
+                     }
+
+                     p {
+                         font-family: Arial;
+                         text-align: center;
+                         color: rgb(255, 255, 255);
+
+
+                     }
+
+                     h1,
+                     h2 {
+                         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                         text-align: center;
+                         color: rgb(255, 231, 152);
+                         text-decoration-line: underline;
+
+                     }
+
+                     /* un selecteur commencant par # vise un id unique*/
+                     #taille {
+                         font-size: larger;
+                     }
+
+
+                     .surlignage {
+                         background-color: rgb(51, 197, 197);
+                     }
+
+                     .image-astro {
+                         width: 450px;
+                         max-width: 100%;
+                         height: auto;
+                         display: block;
+                         margin: 20px auto;
+                         border-radius: 8px;
+                         box-shadow: 0 0 10px #000;
+                     }
